@@ -1,0 +1,17 @@
+{
+  "name": "kamelshoni-motion",
+  "private": true,
+  "description": "Kamel Shoni - حسابات المحبة | VOX paper-collage motion graphics lyric video (9:16) + WAMD animated logo",
+  "scripts": {
+    "render": "remotion render src/index.ts KamelShoni out/kamelshoni-motion-vox.mp4",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  }
+}
